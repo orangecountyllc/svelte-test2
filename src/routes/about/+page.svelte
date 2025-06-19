@@ -103,7 +103,7 @@
           <a href="/" class="text-2xl font-extrabold text-blue-900 tracking-tight">Birdy</a>
         </div>
         <div class="hidden md:flex space-x-8">
-
+          <a href="#home" class="text-blue-900 hover:text-blue-600 font-semibold text-lg">Home</a>
           <a href="#features" class="text-blue-900 hover:text-blue-600 font-semibold text-lg">Features</a>
           <a href="#faq" class="text-blue-900 hover:text-blue-600 font-semibold text-lg">FAQ</a>
           <a href="#contact" class="text-blue-900 hover:text-blue-600 font-semibold text-lg">Contact</a>
@@ -119,7 +119,7 @@
     </div>
     <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
       <div class="px-4 pt-2 pb-3 space-y-1">
-      
+        <a href="#home" class="block text-blue-900 hover:text-blue-600 font-semibold text-lg">Home</a>
         <a href="#features" class="block text-blue-900 hover:text-blue-600 font-semibold text-lg">Features</a>
         <a href="#faq" class="block text-blue-900 hover:text-blue-600 font-semibold text-lg">FAQ</a>
         <a href="#contact" class="block text-blue-900 hover:text-blue-600 font-semibold text-lg">Contact</a>
@@ -183,10 +183,10 @@
         <!-- Links -->
         <div class="mt-6 text-center space-y-2">
           <p class="text-gray-600">
-            Don't have an account? <a href="/#" class="text-blue-600 font-semibold hover:text-blue-800">Sign Up</a>
+            Don't have an account? <a href="/signup" class="text-blue-600 font-semibold hover:text-blue-800">Sign Up</a>
           </p>
           <p class="text-gray-600">
-            <a href="/#" class="text-blue-600 font-semibold hover:text-blue-800">Forgot Password?</a>
+            <a href="/forgot" class="text-blue-600 font-semibold hover:text-blue-800">Forgot Password?</a>
           </p>
         </div>
       </div>
@@ -204,6 +204,7 @@
         <div>
           <h3 class="text-2xl font-bold mb-4">Quick Links</h3>
           <ul class="space-y-2 font-light text-lg">
+            <li><a href="#home" class="hover:text-blue-300">Home</a></li>
             <li><a href="#features" class="hover:text-blue-300">Features</a></li>
             <li><a href="#faq" class="hover:text-blue-300">FAQ</a></li>
             <li><a href="#contact" class="hover:text-blue-300">Contact</a></li>
