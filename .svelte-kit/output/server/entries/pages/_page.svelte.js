@@ -1,4 +1,4 @@
-import { f as attr_style, e as escape_html, c as pop, p as push, h as stringify, i as head, d as attr } from "../../chunks/index2.js";
+import { d as attr_style, e as escape_html, c as pop, p as push, f as stringify, h as head, i as attr } from "../../chunks/index2.js";
 import { n as noop, b as deferred } from "../../chunks/equality.js";
 import { t as source, u as render_effect, n as set, o as get } from "../../chunks/runtime.js";
 import "clsx";

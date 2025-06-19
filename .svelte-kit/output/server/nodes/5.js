@@ -5,6 +5,6 @@ let component_cache;
 export const component = async () => component_cache ??= (await import('../entries/pages/sverdle/how-to-play/_page.svelte.js')).default;
 export { universal };
 export const universal_id = "src/routes/sverdle/how-to-play/+page.js";
-export const imports = ["_app/immutable/nodes/5.BxNej2Ao.js","_app/immutable/chunks/Dh7teS_2.js","_app/immutable/chunks/l-OOohzE.js","_app/immutable/chunks/BJ4OAVPy.js","_app/immutable/chunks/BT4rR18z.js","_app/immutable/chunks/UZF9LZrx.js"];
+export const imports = ["_app/immutable/nodes/5.CB9s8pl3.js","_app/immutable/chunks/CAIng4ND.js","_app/immutable/chunks/DWX-CblI.js","_app/immutable/chunks/3szAqqJG.js","_app/immutable/chunks/BLyfrfZJ.js","_app/immutable/chunks/F6T_R6ON.js"];
 export const stylesheets = ["_app/immutable/assets/5.Dv9QCmvw.css"];
 export const fonts = [];

@@ -43,14 +43,6 @@
     "file": "chunks/index3.js",
     "name": "index",
     "imports": [
-      "_client.js",
-      "_index2.js"
-    ]
-  },
-  "_index4.js": {
-    "file": "chunks/index4.js",
-    "name": "index",
-    "imports": [
       "_false.js"
     ]
   },
@@ -135,7 +127,7 @@
     "isEntry": true,
     "imports": [
       "_index2.js",
-      "_index3.js"
+      "_client.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
@@ -163,12 +155,8 @@
     "name": "entries/pages/_layout.svelte",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
-    "imports": [
-      "_index2.js",
-      "_index3.js"
-    ],
     "css": [
-      "_app/immutable/assets/_layout.Bd9C2ff6.css"
+      "_app/immutable/assets/_layout.BI1sMX8Y.css"
     ],
     "assets": [
       "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.FAIU8e3o.woff2",
@@ -217,17 +205,14 @@
     "src": "src/routes/about/+page.js",
     "isEntry": true,
     "imports": [
-      "_index4.js"
+      "_index3.js"
     ]
   },
   "src/routes/about/+page.svelte": {
     "file": "entries/pages/about/_page.svelte.js",
     "name": "entries/pages/about/_page.svelte",
     "src": "src/routes/about/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index2.js"
-    ]
+    "isEntry": true
   },
   "src/routes/sverdle/+page.server.js": {
     "file": "entries/pages/sverdle/_page.server.js",
@@ -257,7 +242,7 @@
     "src": "src/routes/sverdle/how-to-play/+page.js",
     "isEntry": true,
     "imports": [
-      "_index4.js"
+      "_index3.js"
     ]
   },
   "src/routes/sverdle/how-to-play/+page.svelte": {
