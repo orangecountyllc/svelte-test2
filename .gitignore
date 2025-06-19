@@ -1,0 +1,14 @@
+
+# SvelteKit build and cache
+.svelte-kit/
+node_modules/
+
+
+
+
+.env
+*.log
+
+public/birdy/map.html
+public/birdy/places.html
+
