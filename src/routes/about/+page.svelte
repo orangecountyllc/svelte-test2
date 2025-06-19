@@ -183,10 +183,10 @@
         <!-- Links -->
         <div class="mt-6 text-center space-y-2">
           <p class="text-gray-600">
-            Don't have an account? <a href="/signup" class="text-blue-600 font-semibold hover:text-blue-800">Sign Up</a>
+            Don't have an account? <a href="/#" class="text-blue-600 font-semibold hover:text-blue-800">Sign Up</a>
           </p>
           <p class="text-gray-600">
-            <a href="/forgot" class="text-blue-600 font-semibold hover:text-blue-800">Forgot Password?</a>
+            <a href="/#" class="text-blue-600 font-semibold hover:text-blue-800">Forgot Password?</a>
           </p>
         </div>
       </div>
